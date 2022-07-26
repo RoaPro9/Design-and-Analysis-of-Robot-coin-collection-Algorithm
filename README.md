@@ -49,7 +49,7 @@ maxCoins(i, j, d): Maximum number of coins that can be
  maxCoins(i, j+1, 0)); // Ahead in right
 ```
 ### C# Implementation
-```
+```C#
 public class MaxCollectByRec
  {
  int R, C;
@@ -96,7 +96,7 @@ problem in Polynomial Time using Dynamic Programming.
 ![image](https://user-images.githubusercontent.com/70070721/180964949-c7ee2745-bb01-4e82-a941-3561695be5a9.png)
 
 ### C# Implementation
-```
+```C#
 public class MaxCollectByDynamicP
  {
  int R, C;
@@ -143,7 +143,13 @@ int[,,] dp)
  }
  }
  ```
+ ## The Algorithm Analysis's Outcome
+The Dynamic programming O(R*C) method is much faster than the Brute Force O(2 r+c)
 
+| Input Size  |  8 | 16 | 32 | 64 | 128 | 256 |
+|---|---|---|---|---|---|---|
+| Recursive | 00.0004262  | 05.5861244 | 05.5861244 | 776.0468821 | 602248.7631 | 36.27035121<sup>11</sup>|
+| Dynamic Programming | 00.0013798 | 00.0022474 | 00.0048734 | 00.0037144 | 00.0068638  | 00.0184453 |
 
 
 
