@@ -83,7 +83,7 @@ public class MaxCollectByRec
 ```
 ### Analisis
 The time Complexity of the
-Recursive IS exponential, O( 2<sup>r+c</sup>)
+Recursive IS exponential, O( 2<sup>r+c</sup> )
 ![image](https://user-images.githubusercontent.com/70070721/180981858-c53dea40-1b73-4a4e-8f71-2fdfa65d7218.png)
 
 
@@ -164,7 +164,7 @@ O(R x C).
 
 
  ## The Algorithm Analysis's Outcome
-The Dynamic programming O(R*C) method is much faster than the Brute Force O(2 r+c)
+The Dynamic programming O(R*C) method is much faster than the Brute Force O( 2<sup>r+c</sup> )
 
 | Input Size  |  8 | 16 | 32 | 64 | 128 | 256 |
 |---|---|---|---|---|---|---|
