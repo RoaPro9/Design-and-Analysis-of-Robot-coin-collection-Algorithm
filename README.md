@@ -81,6 +81,13 @@ public class MaxCollectByRec
  }
  }
 ```
+### Analisis
+The time Complexity of the
+Recursive IS exponential, O( 2<sup>r+c</sup>)
+![image](https://user-images.githubusercontent.com/70070721/180981858-c53dea40-1b73-4a4e-8f71-2fdfa65d7218.png)
+
+
+
 ## Dynamic Programming 
 Dynamic programming is mostly just a matter of taking a recursive algorithm and
 finding the overlapping subproblems (that is, the repeated calls). You then cache
@@ -143,6 +150,19 @@ int[,,] dp)
  }
  }
  ```
+ ### Analisis
+ The time
+complexity =
+O(R x C x d).
+Since d is 2
+which is
+constant , time
+complexity can
+be written as
+O(R x C).
+![image](https://user-images.githubusercontent.com/70070721/180981680-ca874a3e-4298-46c8-a021-7e054f5e3ac9.png)
+
+
  ## The Algorithm Analysis's Outcome
 The Dynamic programming O(R*C) method is much faster than the Brute Force O(2 r+c)
 
@@ -150,6 +170,10 @@ The Dynamic programming O(R*C) method is much faster than the Brute Force O(2 r+
 |---|---|---|---|---|---|---|
 | Recursive | 00.0004262  | 05.5861244 | 05.5861244 | 776.0468821 | 602248.7631 | 36.27035121<sup>11</sup>|
 | Dynamic Programming | 00.0013798 | 00.0022474 | 00.0048734 | 00.0037144 | 00.0068638  | 00.0184453 |
+
+## Time Chart
+![image](https://user-images.githubusercontent.com/70070721/180982148-be9df4fb-3e5c-4670-97a3-1c44b5385311.png)
+
 
 
 
