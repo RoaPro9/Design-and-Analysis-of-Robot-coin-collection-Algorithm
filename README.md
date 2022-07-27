@@ -81,7 +81,7 @@ public class MaxCollectByRec
  }
  }
 ```
-### Analisis
+### Analysis
 The time Complexity of the
 Recursive IS exponential, O( 2<sup>r+c</sup> )
 ![image](https://user-images.githubusercontent.com/70070721/180981858-c53dea40-1b73-4a4e-8f71-2fdfa65d7218.png)
@@ -150,7 +150,7 @@ int[,,] dp)
  }
  }
  ```
- ### Analisis
+ ### Analysis
  The time
 complexity =
 O(R x C x d).
