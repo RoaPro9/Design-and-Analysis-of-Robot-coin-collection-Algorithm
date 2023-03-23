@@ -1,23 +1,9 @@
 # Robot Coin Collection Algorithm
-We solved the problem by Dynamic
-Programming and Brute Force using C#. With a focus on applying several
-input size in order to determine which
-solution is more efficient, we have come
-to the conclusion that the Dynamic
-Programming is faster which has time
-complexity O(R*C) unlike the Brute Force
-with the exponential time .
+We solved the problem by using Dynamic Programming and Brute Force algorithms in C#. After testing with different input sizes, we concluded that the Dynamic Programming algorithm is faster, with a time complexity of O(R*C), compared to the Brute Force algorithm with exponential time.
 
 ## Introduction
 ### The problrm
-Imagine a robot sitting on the upper left corner of
-grid with r rows and c columns. The robot can only
-move in two directions, right and down, but certain
-cells are "off limits" such that the robot cannot step
-on them. Design an algorithm to find a path for the
-robot from the top left to the bottom right.
-> Given a character matrix where every cell has one of the following
-values.
+Imagine a robot sitting at the upper left corner of a grid with r rows and c columns. The robot can only move in two directions, right and down, but certain cells are "off limits," meaning the robot cannot step on them. Design an algorithm to find a path for the robot from the top left to the bottom right.
 
 ### The Movment Rules 
 Initial position is cell (0, 0) and initial direction is right.
